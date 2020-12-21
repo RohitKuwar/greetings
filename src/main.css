@@ -1,0 +1,74 @@
+.myclass1 {
+    background-image: url("./gm\ anim.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.myclass2 {
+    background-image: url("./noon\ anim2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.myclass3 {
+    background-image: url("./even.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.myclass4 {
+    background-image: url("./gn\ \(2\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    background: rgba(116, 89, 89, 0.2);
+    color: tomato;
+    font-family: 'Langar',
+        cursive;
+    font-size: 40px;
+    border-radius: 12px;
+    box-shadow: 7px 7px 1px rgba(51, 53, 24, 0.5);
+    padding: 16px 20px;
+}
+
+h1 span {
+    color: rgb(216, 216, 29);
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:479px) {
+    h1 {
+        font-size: 10px;
+    }
+}
